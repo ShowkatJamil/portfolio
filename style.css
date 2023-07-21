@@ -4,6 +4,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    scroll-behavior: smooth;
 
 }
 .container{
@@ -76,22 +77,34 @@
 .resume-btn{ 
     border-radius: 10px;
     padding: 5px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-top: 25px;
-    appearance: none;
-    font-weight: bolder;
-    background-color: rgba(47, 228, 228, 0.795);
+    /* appearance: none; */
+    /* font-weight: bolder; */
+    color: rgba(255, 255, 255, 0.514);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .resume-btn:hover{ 
     border-radius: 10px;
     padding: 5px;
-    margin-left: 10px;
+    /* margin-left: 10px; */
     margin-top: 25px;
-    appearance: none;
-    font-weight: bolder;
-    opacity: 0.5;
-    background-color: rgb(47, 228, 228);
-    box-shadow: 0 5px 15px rgba(0, 247, 255, 0.4);
+    /* appearance: none; */
+    /* font-weight: bolder; */
+    color: rgba(255, 255, 255, 0.514);
+    background-color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    font-size: large;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    transition-property: all;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
 }
 
 
@@ -107,7 +120,7 @@
     justify-content: center;
     width: 50%;
 }
-img{
+.first-comp-right img{
     width: 50%;
     height: 100%;
     border-radius: 20px;
@@ -234,7 +247,19 @@ img{
 
 
 
-
+.go-top-btn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 25px;
+    opacity: 0.3;
+}
 
 
 
